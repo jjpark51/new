@@ -16,7 +16,7 @@ body{
 h1 {
     font-size: 36px;
     font-weight: bold;
-    font-style: italic;
+    font-style:italic;
 }
 h2{
     font-size:20px;
@@ -59,9 +59,11 @@ section{
     width: 610px;
     height: 400px;
     padding: 30px;
+    margin-right:auto;
+    margin-left:auto;
     margin:30px;
     border:1px solid #ebebeb;
-    box-shadow: 0px 1px 20px 0 rgba(255,192,203,0.1);
+    box-shadow: 0 50px 100px 30px rgba(199, 255, 192, 0.5);
 
 }
 .title-text{
@@ -77,9 +79,8 @@ section{
     float:right;
     padding-right: 6px;
 }
-.float-wrap {
+.float-wrap{
     overflow:hidden;
-
 }
 .desc-text {
     font-size: 9px;
@@ -99,7 +100,7 @@ section{
 }
 
 p {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 footer {
@@ -107,5 +108,5 @@ footer {
     background-color: #1e1e1e;
     color: #919191;;
     font-size: 12px;
-    padding: 2px;
+    padding: 1px;
 }

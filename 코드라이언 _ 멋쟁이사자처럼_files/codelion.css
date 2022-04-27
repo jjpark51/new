@@ -1,0 +1,22 @@
+.name-text {                                  
+    font-size: 17px;                         
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+.mainbox {
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ebebeb;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 100px;
+    font-size: 12px;
+    color: #919191;
+}
