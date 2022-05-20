@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let favoriteArtist = 'taeyeon';
+        console.log(favoriteArtist); // some i'm guessing this i the printf function
+
+
+        let add = 1+2;
+        console.log(add);
+
+        const c = 2022;
+        const d = ' 올해는 호랑이의 해';
+        console.log(c + d);
+
+        // 두 길이 일치하는 것을 확인해보자
+        const a = 1;
+        const b = '1';
+        const equals = a ===b;
+        console.log(equals);
+
+        // 두 길이 일치하지 않는지 확인해보자
+        const value = 1 !== '1';
+        console.log(value);
+
+        function add2(num1, num2){
+            return num1 + num2;
+        }
+        const sum = add2(100,200);
+        console.log(sum);
+
+        function hello(name){
+            console.log(`Hello ${name}`)
+        }
+        hello('lion');
+
+        const sample = {
+            'key with space': true
+        };
+
+        const likelion = {
+            name: '멋쟁이사자처럼',
+            age: 10
+        };
+
+        console.log(likelion.name);
+        console.log(likelion.age);
+
+        const numArray = [ 1,2,3,4,5];
+
+        const object = [
+            { name: '멋쟁이'},
+            {name : '사자처럼'}
+    ];
+    console.log(object[1]);
+
+    object.push(
+        {
+            name: '자바스크립트'
+        }
+    );
+
+    console.log(object[2]);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
