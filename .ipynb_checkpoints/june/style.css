@@ -1,0 +1,231 @@
+*{ 
+  font-family:'Lucida Sans', sans-serif;
+      list-style: none;
+      text-decoration: none;
+      border-collapse: collapse;
+      margin: 0px;
+      padding: 0px;
+      /* color: #000; */
+  }
+  h1{
+    font-size: 48px;
+    font-weight: 100;
+  }
+  .contents1{
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 10px;
+    margin-bottom: 60px;
+    
+   
+  }
+  .contents1_bold{
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  .contents2{
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 10px;
+    margin-bottom: 60px;
+    text-shadow: -2px 0 #575d93, 0 2px #575d93, 2px 0 #575d93, 0 -2px #575d93; 
+    /* text-shadow: -2px 0 white, 0 2px white, 2px 0  white, 0 -2px  white;  */
+    color:whitesmoke;
+  }
+  .result{
+    font-size: 20px;
+    color:whitesmoke;
+  
+  }
+.intro_bg{
+    background-image:url("jordancover.jpg");
+    width:100%;
+    height:718px;
+}
+
+.header{
+  display: flex;
+  width:1280px;
+  margin:auto;
+  height:86px;
+}
+.searchArea{
+  width: 300px;
+  height: 40px;
+  background: rgba(38, 38, 38, 0.5);
+  border-radius: 5px;
+  margin-top: 24px;
+}
+.searchArea > form > input{
+  border: none;
+  width: 250px;
+  height: 40px;
+  background: rgba(0,0,0,0);
+  color:#fff;
+  padding-left: 10px;
+}
+.searchArea > form > span{
+  width: 50px;
+  color: rgb(132, 129, 129);
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav{
+  display: flex;
+  width:calc(1280px - 300px);
+  justify-content: flex-end;
+  line-height: 86px;
+}
+
+.nav > li{
+  margin-left: 84px;
+
+}
+.nav > li > a{
+  color:rgb(132, 129, 129);
+}
+.amount{
+  position: relative;
+  display: flex;
+  width: 1280px;
+  height: 300px;
+  background:#17171781;
+  margin: auto;
+  box-shadow: 0px 0px 10px rgba(0,0, 0, 0.1);
+}
+.amount > li > div {
+  text-align: center;
+  margin-top: 30px;
+  height: 240px;
+}
+.amount > li:not(:last-child) > div{
+  border-right: 1px solid #575d9390;
+}
+.amount > li{
+  flex:1;
+  height: 132px;
+}
+.intro_text{
+  width: 100%;
+  margin: 400px auto 300px -100px;
+  text-align: right;
+}
+
+.intro_text > h1,
+.intro_text > h4{
+  margin-left: 200px;
+  text-shadow: -2px 0 #861F34, 0 2px #861F34, 2px 0 #861F34, 0 -2px #861F34; /* 글자 테투리 */
+}
+.intro_text > h1{
+  margin-bottom: 20px;
+}
+
+
+/*info_class*/
+
+.info_class{
+  width: 100%;
+  height: 510px;
+  margin-top: 0px;
+  background:  #07080F;
+}
+.info_class > h1{
+  padding-bottom: 30px;
+  padding-top: 55px;
+  text-align: center;
+  text-shadow: -2px 0 #861F34, 0 2px #861F34, 2px 0 #861F34, 0 -2px #861F34; /* 글자 테투리 */
+}
+.info_class > .contents1 {
+  text-align: center; 
+
+}
+
+/*icons*/
+.youtube{
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  background:  #07080F;
+}
+.icons{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 200px;
+  border: rgb(83, 8, 8);
+  border-radius: 2px;
+}
+.youtube > h1{
+  padding-top: 30px;
+  text-align: center;
+  text-shadow: -2px 0 #861F34, 0 2px #861F34, 2px 0 #861F34, 0 -2px #861F34; /* 글자 테투리 */
+}
+
+/* stillcut_class*/
+.stillcut_class{
+  width: 100%;
+  height: 600px;
+  background:  #07080F;
+}
+.stillcut_class > h1 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+  text-shadow: -2px 0 #861F34, 0 2px #861F34, 2px 0 #861F34, 0 -2px #861F34; /* 글자 테투리 */
+}
+
+.stillcut_photo{
+  display: flex;
+  height: 427px;
+}
+
+
+/*.more_class*/
+
+.more_class{
+  width: 100%;
+  height: 800px;
+  background-image: url("poster.jpg");
+}
+
+.more_class > ul{
+  display: flex;
+  padding-top: 208px;
+
+}
+
+.more_class > ul > li{
+  flex: 1;
+  text-align: center;
+}
+
+.more_class > ul > li > div >h1{
+  text-shadow: -2px 0 #861F34, 0 2px #861F34, 2px 0 #861F34, 0 -2px #861F34; /* 글자 테투리 */
+  font-size: 50px;
+}
+
+.more2{
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  margin: 30px auto;
+  border: 2px solid #861F34;
+  cursor: pointer;
+  color: #861F34;
+}
+
+footer {display: flex;
+  background: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer > h3:first-child{
+  text-align: center;
+  color:  #575d93;
+  flex: 3;
+  
+}
+footer > div:last-child{
+  color:  #575d93;
+  flex:9;
+}
