@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+  }
+  
+  .container {
+    height: 150vh;
+    background-size: cover;
+    background-attachment: fixed; /* This is the main part of the code*/
+  }
+  
+  .one {
+    background-image: url(images/steph.png);
+  }
+  
+  .two {
+    background-image: url(images/curry2.jpg);
+  }
+  
+  .three {
+    background-image: url(images/curry3.jpg);
+  }
+  
+  .container header {
+    color: rgba(255, 255, 255, 0.8);
+    display:flow-root;
+    position: relative;
+    left: 70%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 70%;
+  }
